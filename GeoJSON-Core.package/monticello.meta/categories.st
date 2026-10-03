@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'GeoJSON-Core'!
-SystemOrganization addCategory: #'GeoJSON-Core-Extra'!
+self packageOrganizer ensurePackage: #'GeoJSON-Core' withTags: #(#Extra #'GeoJSON-Core')!
